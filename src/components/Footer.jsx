@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className='footer-container flex flex-col sm:flex-row gap-4 sm:gap-0 items-center justify-between px-6 py-4'>
         <p className='text-sm text-center sm:text-left'>
-          © 2025 <strong className='blue-gradient_text'>Brian Njaramba</strong>. All rights reserved.
+          © 2025 <strong><a href="https://github.com/briannjara" target="_blank" className='blue-gradient_text'>Brian Njaramba</a></strong>. All rights reserved.
         </p>
 
         <div className='flex gap-3 items-center mb-16 sm:mb-0'>
