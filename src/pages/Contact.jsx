@@ -4,7 +4,7 @@ import { Suspense, useRef, useState } from "react";
 
 import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
-import { Alert, Loader } from "../components";
+import { Alert, Loader, AudioPlayer } from "../components";
 
 const Contact = () => {
   const formRef = useRef();
@@ -166,6 +166,8 @@ const Contact = () => {
           </Suspense>
         </Canvas>
       </div>
+
+      <AudioPlayer />
     </section>
   );
 };

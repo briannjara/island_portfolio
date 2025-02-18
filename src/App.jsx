@@ -1,20 +1,43 @@
 import React from "react";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { About, Contact, Home, Projects } from "./pages";
+import { AudioProvider } from "./contexts/AudioContext";
+import { Footer } from "./components";
+import AudioPlayer from "./components/AudioPlayer";
+
+// Create a wrapper component to handle conditional footer rendering
+const AppContent = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={
+          <>
+            <Contact />
+            <Footer />
+          </>
+        } />
+      </Routes>
+    </>
+  );
+};
 
 const App = () => {
   return (
-    <main className="bg-slate-300/20">
-      <Router>
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/contact" element={<Contact/>} />
-          <Route path="/projects" element={<Projects/>}/>
-        </Routes>
-      </Router>
+    <main className="bg-slate-300/20 h-full">
+      <AudioProvider>
+        <Router>
+          <AppContent />
+          <AudioPlayer />
+        </Router>
+      </AudioProvider>
     </main>
   );
 };
