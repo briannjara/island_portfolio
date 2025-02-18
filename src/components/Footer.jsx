@@ -7,12 +7,12 @@ const Footer = () => {
     <footer className='footer font-poppins'>
       <hr className='border-slate-200' />
 
-      <div className='footer-container'>
-        <p>
-          © 2025 <strong>Brian Njaramba</strong>. All rights reserved.
+      <div className='footer-container flex flex-col sm:flex-row gap-4 sm:gap-0 items-center justify-between px-6 py-4'>
+        <p className='text-sm text-center sm:text-left'>
+          © 2025 <strong className='blue-gradient_text'>Brian Njaramba</strong>. All rights reserved.
         </p>
 
-        <div className='flex gap-3 justify-center items-center'>
+        <div className='flex gap-3 items-center mb-16 sm:mb-0'>
           {socialLinks.map((link) => (
             <Link key={link.name} to={link.link} target='_blank'>
               <img
