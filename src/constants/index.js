@@ -112,56 +112,61 @@ export const skills = [
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
+        company_name: "Portfolio for Clients",
         icon: starbucks,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Built sleek, custom portfolios for clients using React.js to make their work shine online. ✨",
+            "Designed responsive layouts that looked 🔥 on any screen—desktop, tablet, or phone.",
+            "Worked closely with clients to match their brand and vibe for a unique, standout site.",
+            "Added smooth animations and ensured cross-browser compatibility for a seamless experience.",
+            "Boosted SEO and accessibility so their sites didn’t just look good but ranked well too. 📈"
+        ]
     },
     {
         title: "React Native Developer",
-        company_name: "Tesla",
+        company_name: "Uber Clone",
         icon: tesla,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Developed a full-on Uber-style app using React Native—real-time tracking, ride requests, payments, the whole package. 🚗💨",
+            "Made sure the app ran flawlessly on both iOS and Android (because nobody likes bugs).",
+            "Collaborated with designers & backend devs to create a smooth, easy-to-use ride experience.",
+            "Optimized performance, squashed bugs, and locked down security to keep things running tight.",
+            "Turned feedback into 🔥 updates to make the app even better over time."
+        ]
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
+        company_name: "Image to Code",
         icon: shopify,
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Built a tool that converts images into clean, functional frontend code—no more manual coding. 🔥",
+            "Implemented AI to analyze images and auto-generate accurate UI components.",
+            "Worked with designers to make sure the AI-generated code actually made sense. 🤖",
+            "Made sure everything was responsive & looked great on any screen.",
+            "Optimized performance to keep things fast and smooth, with less manual tweaking needed."
+        ]
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Full Stack Developer",
+        company_name: "Budget Tracker",
         icon: meta,
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+            "Built a budget tracking app to help users manage money without the headache. 💰",
+            "Developed key features like expense tracking, financial insights, and automated calculations.",
+            "Worked with designers to create a simple, clean UI that’s actually easy to use.",
+            "Made sure everything was secure & optimized for smooth performance.",
+            "Integrated authentication & data protection, because security is non-negotiable. 🔒"
+        ]
+    }
+    ,
 ];
 
 export const socialLinks = [
@@ -186,43 +191,45 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Expense Tracker',
+        description: 'Built a smart expense tracker that helps users keep their budget in check, track spending, and flex better money habits. 💰📊',
+        link: '#',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Full Stack PDF Manager',
+        description: 'Developed a full-stack app that lets users upload, manage, merge, split, and annotate PDFs like a pro. 📄✨',
+        link: '#',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Quiz AI',
+        description: 'Created an AI-powered quiz app that generates smart questions, adapts to user knowledge, and makes learning actually fun. 🤖🎓',
+        link: '#',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        description: 'Built a full-blown Instagram clone with posts, likes, stories, and everything social media addicts love. 📸🔥',
+        link: '#',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Gemini AI Clone',
+        description: 'Developed a Gemini-inspired AI chatbot that generates text, answers questions, and does the thinking for you. 🤯🤖',
+        link: '#',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Food Delivery App',
+        description: 'Designed a food delivery app that connects hungry users to restaurants, tracks orders in real-time, and makes sure no meal gets left behind. 🍔🚀',
+        link: '#',
     }
+    
+    
 ];
