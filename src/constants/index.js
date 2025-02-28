@@ -212,9 +212,9 @@ export const projects = [
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a full-blown Instagram clone with posts, likes, stories, and everything social media addicts love. 📸🔥',
-        link: '#',
+        name: 'Image to Code App',
+        description: 'Built a tool that converts images into clean, functional frontend code—no more manual coding.',
+        link: 'https://img-code.vercel.app/',
     },
     {
         iconUrl: estate,
