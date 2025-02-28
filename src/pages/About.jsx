@@ -28,7 +28,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          A visionary developer based in Kenya 🇰🇪, crafting seamless digital
+          A visionary developer based in Kenya 🇰🇪 , crafting seamless digital
           experiences through web and mobile technologies. Passionate about
           transforming complexity into simplicity, with a relentless focus on
           performance, scalability, and user experience. Mastering AI

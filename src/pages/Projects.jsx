@@ -45,6 +45,7 @@ const Projects = () => {
                 ) : (
                   <Link
                     to={project.link}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-blue-600"
                   >
