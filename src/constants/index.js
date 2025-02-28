@@ -193,7 +193,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Expense Tracker',
         description: 'Built a smart expense tracker that helps users keep their budget in check, track spending, and flex better money habits. 💰📊',
-        link: '#',
+        link: 'https://finansmart.netlify.app/',
     },
     {
         iconUrl: threads,
@@ -228,7 +228,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'Food Delivery App',
         description: 'Designed a food delivery app that connects hungry users to restaurants, tracks orders in real-time, and makes sure no meal gets left behind. 🍔🚀',
-        link: '#',
+        link: 'https://njarambadel.netlify.app/',
     }
     
     
