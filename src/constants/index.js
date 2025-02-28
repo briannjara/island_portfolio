@@ -207,7 +207,7 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Quiz AI',
         description: 'Created an AI-powered quiz app that generates smart questions, adapts to user knowledge, and makes learning actually fun. 🤖🎓',
-        link: '#',
+        link: 'https://quiz-ai-two.vercel.app/',
     },
     {
         iconUrl: snapgram,
