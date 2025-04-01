@@ -1,11 +1,13 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/Navbar";
 import { About, Contact, Home, Projects } from "./pages";
 import { AudioProvider } from "./contexts/AudioContext";
 import { Footer } from "./components";
 import AudioPlayer from "./components/AudioPlayer";
 import CustomCursor from "./components/CustomCursor";
+import PageTransition from "./components/PageTransition";
 
 // Create a wrapper component to handle conditional footer rendering
 const AppContent = () => {
@@ -15,17 +17,33 @@ const AppContent = () => {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={
-          <>
-            <Contact />
-            <Footer />
-          </>
-        } />
-      </Routes>
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={
+            <PageTransition>
+              <Home />
+            </PageTransition>
+          } />
+          <Route path="/about" element={
+            <PageTransition>
+              <About />
+            </PageTransition>
+          } />
+          <Route path="/projects" element={
+            <PageTransition>
+              <Projects />
+            </PageTransition>
+          } />
+          <Route path="/contact" element={
+            <PageTransition>
+              <>
+                <Contact />
+                <Footer />
+              </>
+            </PageTransition>
+          } />
+        </Routes>
+      </AnimatePresence>
     </>
   );
 };
