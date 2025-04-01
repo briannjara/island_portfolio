@@ -40,7 +40,7 @@ const Projects = () => {
               <div className="mt-5 flex items-center gap-2 font-poppins">
                 {project.link === "#" ? (
                   <span className="font-semibold text-[10px] text-red-400 cursor-not-allowed">
-                    "Link’s not up yet 😭"
+                    "Project coming soon"
                   </span>
                 ) : (
                   <Link

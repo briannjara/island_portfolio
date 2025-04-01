@@ -117,11 +117,11 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
         points: [
-            "Built sleek, custom portfolios for clients using React.js to make their work shine online. ✨",
-            "Designed responsive layouts that looked 🔥 on any screen—desktop, tablet, or phone.",
-            "Worked closely with clients to match their brand and vibe for a unique, standout site.",
-            "Added smooth animations and ensured cross-browser compatibility for a seamless experience.",
-            "Boosted SEO and accessibility so their sites didn’t just look good but ranked well too. 📈"
+            "Developed custom portfolio websites using React.js to showcase client work effectively",
+            "Implemented responsive layouts ensuring optimal display across all device types",
+            "Collaborated with clients to align designs with their brand identity and vision",
+            "Integrated smooth animations and ensured cross-browser compatibility",
+            "Optimized SEO and accessibility standards for improved site performance"
         ]
     },
     {
@@ -131,11 +131,11 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
-            "Developed a full-on Uber-style app using React Native—real-time tracking, ride requests, payments, the whole package. 🚗💨",
-            "Made sure the app ran flawlessly on both iOS and Android (because nobody likes bugs).",
-            "Collaborated with designers & backend devs to create a smooth, easy-to-use ride experience.",
-            "Optimized performance, squashed bugs, and locked down security to keep things running tight.",
-            "Turned feedback into 🔥 updates to make the app even better over time."
+            "Engineered a comprehensive ride-sharing application using React Native",
+            "Ensured consistent performance across iOS and Android platforms",
+            "Coordinated with design and backend teams to deliver seamless user experience",
+            "Implemented robust security measures and performance optimizations",
+            "Incorporated user feedback to drive continuous improvement"
         ]
     },
     {
@@ -145,11 +145,11 @@ export const experiences = [
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",
         points: [
-            "Built a tool that converts images into clean, functional frontend code—no more manual coding. 🔥",
-            "Implemented AI to analyze images and auto-generate accurate UI components.",
-            "Worked with designers to make sure the AI-generated code actually made sense. 🤖",
-            "Made sure everything was responsive & looked great on any screen.",
-            "Optimized performance to keep things fast and smooth, with less manual tweaking needed."
+            "Developed an innovative tool for automated frontend code generation from images",
+            "Integrated AI technology to analyze and generate precise UI components",
+            "Collaborated with design teams to validate AI-generated code quality",
+            "Implemented responsive design principles across all generated components",
+            "Optimized system performance for efficient code generation"
         ]
     },
     {
@@ -159,14 +159,13 @@ export const experiences = [
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points: [
-            "Built a budget tracking app to help users manage money without the headache. 💰",
-            "Developed key features like expense tracking, financial insights, and automated calculations.",
-            "Worked with designers to create a simple, clean UI that’s actually easy to use.",
-            "Made sure everything was secure & optimized for smooth performance.",
-            "Integrated authentication & data protection, because security is non-negotiable. 🔒"
+            "Architected a comprehensive budget management application",
+            "Developed core features including expense tracking and financial analytics",
+            "Created an intuitive user interface through close collaboration with design teams",
+            "Implemented robust security protocols and performance optimizations",
+            "Integrated secure authentication and data protection measures"
         ]
     }
-    ,
 ];
 
 export const socialLinks = [
@@ -192,44 +191,42 @@ export const projects = [
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Expense Tracker',
-        description: 'Built a smart expense tracker that helps users keep their budget in check, track spending, and flex better money habits. 💰📊',
+        description: 'A comprehensive financial management tool enabling users to track expenses, monitor budgets, and develop better financial habits.',
         link: 'https://finansmart.netlify.app/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Full Stack PDF Manager',
-        description: 'Developed a full-stack app that lets users upload, manage, merge, split, and annotate PDFs like a pro. 📄✨',
+        description: 'A sophisticated document management system enabling users to upload, process, and manipulate PDF files with advanced features.',
         link: '#',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'Quiz AI',
-        description: 'Created an AI-powered quiz app that generates smart questions, adapts to user knowledge, and makes learning actually fun. 🤖🎓',
+        description: 'An intelligent quiz platform leveraging AI to generate adaptive questions and create an engaging learning experience.',
         link: 'https://quiz-ai-two.vercel.app/',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Image to Code App',
-        description: 'Built a tool that converts images into clean, functional frontend code—no more manual coding.',
+        description: 'An innovative tool that transforms visual designs into production-ready frontend code through advanced automation.',
         link: 'https://img-code.vercel.app/',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Gemini AI Clone',
-        description: 'Developed a Gemini-inspired AI chatbot that generates text, answers questions, and does the thinking for you. 🤯🤖',
+        description: 'A sophisticated AI chatbot system inspired by Gemini, capable of generating text and providing intelligent responses.',
         link: '#',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'Food Delivery App',
-        description: 'Designed a food delivery app that connects hungry users to restaurants, tracks orders in real-time, and makes sure no meal gets left behind. 🍔🚀',
+        description: 'A comprehensive food delivery platform featuring real-time order tracking and seamless restaurant-customer connectivity.',
         link: 'https://njarambadel.netlify.app/',
     }
-    
-    
 ];

@@ -18,30 +18,25 @@ const About = () => {
         </span>{" "}
         👋
         <br />
-        <span className="text-lg font-medium mr-2 italic text-gray-500">
-          "I alone am The Honoured One."
-        </span>
-        <span className="text-sm text-gray-400">
-          (nah fr, built different 💀)
-        </span>
+        
+        
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          A visionary developer based in Kenya 🇰🇪 , crafting seamless digital
-          experiences through web and mobile technologies. Passionate about
-          transforming complexity into simplicity, with a relentless focus on
-          performance, scalability, and user experience. Mastering AI
-          integration, state management, and full-stack development, pushing the
-          boundaries of what’s possible. Every project is a pursuit of
-          precision, every challenge an opportunity to refine the craft. The
-          goal isn’t just to build—it’s to innovate, disrupt, and leave a
-          lasting impact. Excellence isn’t a choice; it’s the <b>standard..!!</b>
+          A Software Engineer based in Kenya, specializing in developing robust web and mobile 
+          applications with a focus on user experience and performance optimization. Leveraging 
+          expertise in full-stack development, AI integration, and state management to deliver 
+          scalable solutions that solve complex business challenges. Committed to writing clean, 
+          maintainable code while following industry best practices and design patterns. 
+          Demonstrated track record of successfully delivering projects that exceed client 
+          expectations through technical excellence and attention to detail. Continuously expanding 
+          knowledge of emerging technologies to build innovative solutions that drive business value.
         </p>
       </div>
 
       <div className="py-10 flex flex-col">
-        <h3 className="subhead-text">My Skills 💻</h3>
+        <h3 className="subhead-text">My Skills</h3>
 
         <div className="mt-16 flex flex-wrap gap-12">
           {skills.map((skill) => (
@@ -63,9 +58,9 @@ const About = () => {
         <h3 className="subhead-text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've collaborated with a variety of companies and clients,
-            constantly leveling up my skills and working with some insanely
-            talented people. Here's the highlight reel: 🚀
+            Throughout my career, I've had the privilege of collaborating with diverse organizations 
+            and clients, continuously expanding my expertise while working alongside highly skilled 
+            professionals. Below is a summary of my professional experience:
           </p>
         </div>
 
