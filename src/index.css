@@ -8,9 +8,77 @@
   --blue-rgb: 237 245 255;
   --green-rgb: 125 161 35;
 }
+/* Custom Cursor Styles - Refined for better UX */
+.cursor-dot,
+.cursor-trail {
+  pointer-events: none;
+  position: fixed;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  will-change: transform;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #2b77e7;
+  box-shadow: 0 0 8px rgba(43, 119, 231, 0.4);
+  transition: transform 0.08s ease, width 0.2s ease, height 0.2s ease;
+}
+
+.cursor-trail {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #2b77e7;
+  box-shadow: 0.3vmin 0.3vmin #336cc1, 0.5vmin 0.5vmin #0092db;
+  transition: transform 0.15s ease, width 0.2s ease, height 0.2s ease, opacity 0.2s ease;
+  opacity: 0.4;
+}
+
+/* Add class for clickable elements */
+.clickable-element:hover ~ .cursor-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #0061ff;
+}
+
+.clickable-element:hover ~ .cursor-trail {
+  width: 32px;
+  height: 32px;
+  opacity: 0.6;
+}
+
+/* Add class for text elements */
+.text-element:hover ~ .cursor-dot {
+  width: 4px;
+  height: 16px;
+  border-radius: 2px;
+}
 
 body {
   font-family: "Work Sans", sans-serif;
+  cursor: none;
+}
+
+/* Fallback for devices without proper cursor support */
+@media (pointer: coarse) {
+  .cursor-dot,
+  .cursor-trail {
+    display: none;
+  }
+  
+  body {
+    cursor: auto;
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .cursor-dot,
+  .cursor-trail {
+    transition: none;
+  }
 }
 
 body:has(.card[data-color="blue"]:hover) {

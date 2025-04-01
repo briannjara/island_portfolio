@@ -5,6 +5,7 @@ import { About, Contact, Home, Projects } from "./pages";
 import { AudioProvider } from "./contexts/AudioContext";
 import { Footer } from "./components";
 import AudioPlayer from "./components/AudioPlayer";
+import CustomCursor from "./components/CustomCursor";
 
 // Create a wrapper component to handle conditional footer rendering
 const AppContent = () => {
@@ -34,6 +35,7 @@ const App = () => {
     <main className="bg-slate-300/20 h-full">
       <AudioProvider>
         <Router>
+          <CustomCursor />
           <AppContent />
           <AudioPlayer />
         </Router>
