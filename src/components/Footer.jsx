@@ -14,7 +14,7 @@ const Footer = () => {
 
         <div className='flex gap-3 items-center mb-16 sm:mb-0'>
           {socialLinks.map((link) => (
-            <Link key={link.name} to={link.link} >
+            <Link key={link.name} to={link.link} target="_blank">
               <img
                 src={link.iconUrl}
                 alt={link.name}

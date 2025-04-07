@@ -180,11 +180,11 @@ export const socialLinks = [
         iconUrl: github,
         link: 'https://github.com/briannjara',
     },
-    // {
-    //     name: 'LinkedIn',
-    //     iconUrl: linkedin,
-    //     link: '#',
-    // },
+    {
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/brian-njaramba-33421735b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
     {
         name: 'Whatsapp',
         iconUrl: whatsapp,
