@@ -23,7 +23,8 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    whatsapp,
 } from "../assets/icons";
 
 export const skills = [
@@ -169,21 +170,26 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
+    // {
+    //     name: 'Contact',
+    //     iconUrl: contact,
+    //     link: '/contact',
+    // },
     {
         name: 'GitHub',
         iconUrl: github,
         link: 'https://github.com/briannjara',
     },
+    // {
+    //     name: 'LinkedIn',
+    //     iconUrl: linkedin,
+    //     link: '#',
+    // },
     {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
+        name: 'Whatsapp',
+        iconUrl: whatsapp,
+        link: 'https://wa.me/254103924584',
+    },
 ];
 
 export const projects = [
